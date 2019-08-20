@@ -4,14 +4,7 @@
     <bookmark url="file://$PROJECT_DIR$/test2.py" line="32" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c0f81cdc-a8d6-4961-b5ac-a7cc7b288985" name="默认更改列表" comment="">
-      <change afterPath="$PROJECT_DIR$/lianxi/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lianxi/phonebook_func.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lianxi/phonebook_func_json.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lianxi/phonebook_oop.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lianxi/phonebook_oop_pickle.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="c0f81cdc-a8d6-4961-b5ac-a7cc7b288985" name="默认更改列表" comment="默认更改列表" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,12 +13,12 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="30">
-                <caret line="1" column="19" lean-forward="true" selection-start-line="1" selection-start-column="19" selection-end-line="1" selection-end-column="19" />
+              <first_editor relative-caret-position="60">
+                <caret line="2" column="14" selection-start-line="2" selection-start-column="14" selection-end-line="2" selection-end-column="14" />
               </first_editor>
               <second_editor />
             </state>
@@ -64,11 +57,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lianxi/phonebook_oop_pickle.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="263">
-              <caret line="219" lean-forward="true" selection-start-line="219" selection-end-line="219" />
+            <state relative-caret-position="392">
+              <caret line="209" column="45" lean-forward="true" selection-start-line="209" selection-start-column="45" selection-end-line="209" selection-end-column="45" />
             </state>
           </provider>
         </entry>
@@ -124,11 +117,11 @@
         <option value="$PROJECT_DIR$/test/test04.py" />
         <option value="$PROJECT_DIR$/test/test01.py" />
         <option value="$PROJECT_DIR$/test/test02.py" />
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/lianxi/phonebook_func.py" />
         <option value="$PROJECT_DIR$/lianxi/phonebook_func_json.py" />
         <option value="$PROJECT_DIR$/lianxi/phonebook_oop.py" />
         <option value="$PROJECT_DIR$/lianxi/phonebook_oop_pickle.py" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -331,7 +324,7 @@
       <workItem from="1566142303199" duration="3341000" />
       <workItem from="1566222743652" duration="4879000" />
       <workItem from="1566304753877" duration="31000" />
-      <workItem from="1566304813842" duration="5392000" />
+      <workItem from="1566304813842" duration="5660000" />
     </task>
     <task id="LOCAL-00001" summary="* test0818">
       <created>1566141280810</created>
@@ -396,11 +389,18 @@
       <option name="project" value="LOCAL" />
       <updated>1566227303195</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="默认更改列表">
+      <created>1566310437582</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1566310437582</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="22595000" />
+    <option name="totallyTimeSpent" value="22863000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -410,7 +410,7 @@
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.46529284" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.46529284" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -420,7 +420,7 @@
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50053304" side_tool="true" weight="0.23644252" />
       <window_info anchor="bottom" id="调试" order="11" />
-      <window_info anchor="bottom" id="Terminal" order="12" sideWeight="0.49946696" weight="0.26170468" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="12" sideWeight="0.49946696" visible="true" weight="0.26030368" />
       <window_info anchor="bottom" id="Python Console" order="13" weight="0.3286334" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -440,7 +440,8 @@
     <MESSAGE value="* test0818&#10;* test01" />
     <MESSAGE value="* test0818&#10;* as&#10;* 测试" />
     <MESSAGE value="* test0818&#10;* as&#10;* 测试&#10;* 20190819" />
-    <option name="LAST_COMMIT_MESSAGE" value="* test0818&#10;* as&#10;* 测试&#10;* 20190819" />
+    <MESSAGE value="默认更改列表" />
+    <option name="LAST_COMMIT_MESSAGE" value="默认更改列表" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/pycharm$test02.coverage" NAME="test02 Coverage Results" MODIFIED="1566307046337" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
@@ -450,7 +451,7 @@
     <SUITE FILE_PATH="coverage/pycharm$test.coverage" NAME="test Coverage Results" MODIFIED="1566106931698" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/pycharm$phonebook_func.coverage" NAME="phonebook_func Coverage Results" MODIFIED="1566307403803" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lianxi" />
     <SUITE FILE_PATH="coverage/pycharm$phonebook_func_json.coverage" NAME="phonebook_func_json Coverage Results" MODIFIED="1566307893207" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lianxi" />
-    <SUITE FILE_PATH="coverage/pycharm$phonebook_oop_pickle.coverage" NAME="phonebook_oop_pickle Coverage Results" MODIFIED="1566310167826" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lianxi" />
+    <SUITE FILE_PATH="coverage/pycharm$phonebook_oop_pickle.coverage" NAME="phonebook_oop_pickle Coverage Results" MODIFIED="1566310243987" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lianxi" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/python-dev/.idea/misc.xml" />
@@ -480,16 +481,6 @@
     <entry file="file://$PROJECT_DIR$/python-dev/Chapter-01.md" />
     <entry file="file://$PROJECT_DIR$/python-dev/Chapter-02.md" />
     <entry file="file://$PROJECT_DIR$/d" />
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="30">
-            <caret line="1" column="19" lean-forward="true" selection-start-line="1" selection-start-column="19" selection-end-line="1" selection-end-column="19" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test/test04.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -533,8 +524,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/lianxi/phonebook_oop_pickle.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="263">
-          <caret line="219" lean-forward="true" selection-start-line="219" selection-end-line="219" />
+        <state relative-caret-position="392">
+          <caret line="209" column="45" lean-forward="true" selection-start-line="209" selection-start-column="45" selection-end-line="209" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="60">
+            <caret line="2" column="14" selection-start-line="2" selection-start-column="14" selection-end-line="2" selection-end-column="14" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
