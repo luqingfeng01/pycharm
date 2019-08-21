@@ -4,7 +4,19 @@
     <bookmark url="file://$PROJECT_DIR$/test2.py" line="32" />
   </component>
   <component name="ChangeListManager">
+<<<<<<< HEAD
     <list default="true" id="c0f81cdc-a8d6-4961-b5ac-a7cc7b288985" name="默认更改列表" comment="默认更改列表" />
+=======
+    <list default="true" id="c0f81cdc-a8d6-4961-b5ac-a7cc7b288985" name="默认更改列表" comment="">
+      <change afterPath="$PROJECT_DIR$/test2/test01.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test2/test2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test2/test3.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test2/test4.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test2/test5.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test2/test6.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
+>>>>>>> d91e38ab46ba4f0955ea07605df0fbcbc431d674
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,8 +29,13 @@
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
+<<<<<<< HEAD
               <first_editor relative-caret-position="60">
                 <caret line="2" column="14" lean-forward="true" selection-start-line="2" selection-start-column="14" selection-end-line="2" selection-end-column="14" />
+=======
+              <first_editor relative-caret-position="66">
+                <caret line="2" column="18" lean-forward="true" selection-start-line="2" selection-start-column="18" selection-end-line="2" selection-end-column="18" />
+>>>>>>> d91e38ab46ba4f0955ea07605df0fbcbc431d674
               </first_editor>
               <second_editor />
             </state>
@@ -26,14 +43,22 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+<<<<<<< HEAD
         <entry file="file://$PROJECT_DIR$/test2.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="-1320">
               <caret line="41" column="49" lean-forward="true" selection-start-line="41" selection-start-column="49" selection-end-line="41" selection-end-column="49" />
+=======
+        <entry file="file://$PROJECT_DIR$/test2/test01.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="66">
+              <caret line="2" column="20" lean-forward="true" selection-start-line="2" selection-start-column="20" selection-end-line="2" selection-end-column="20" />
+>>>>>>> d91e38ab46ba4f0955ea07605df0fbcbc431d674
             </state>
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/test.py">
           <provider selected="true" editor-type-id="text-editor">
@@ -46,48 +71,82 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lianxi/__init__.py">
           <provider selected="true" editor-type-id="text-editor" />
+=======
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test2/test2.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="165">
+              <caret line="5" column="22" lean-forward="true" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
+            </state>
+          </provider>
+>>>>>>> d91e38ab46ba4f0955ea07605df0fbcbc431d674
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lianxi/phonebook_func.py">
+        <entry file="file://$PROJECT_DIR$/test2/test3.py">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state relative-caret-position="230">
               <caret line="170" column="27" selection-start-line="170" selection-start-column="27" selection-end-line="170" selection-end-column="27" />
+=======
+            <state relative-caret-position="264">
+              <caret line="8" column="9" lean-forward="true" selection-start-line="8" selection-start-column="9" selection-end-line="8" selection-end-column="9" />
+>>>>>>> d91e38ab46ba4f0955ea07605df0fbcbc431d674
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lianxi/phonebook_func_json.py">
+        <entry file="file://$PROJECT_DIR$/test2/test4.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="318">
-              <caret line="195" lean-forward="true" selection-start-line="195" selection-end-line="195" />
+            <state relative-caret-position="165">
+              <caret line="5" column="20" selection-start-line="5" selection-start-column="20" selection-end-line="5" selection-end-column="20" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lianxi/phonebook_oop.py">
+        <entry file="file://$PROJECT_DIR$/test2/test5.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="228">
-              <caret line="187" column="32" lean-forward="true" selection-end-line="203" />
+            <state relative-caret-position="99">
+              <caret line="3" column="11" lean-forward="true" selection-start-line="3" selection-start-column="11" selection-end-line="3" selection-end-column="11" />
             </state>
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lianxi/phonebook_oop_pickle.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="392">
               <caret line="209" column="45" lean-forward="true" selection-start-line="209" selection-start-column="45" selection-end-line="209" selection-end-column="45" />
+=======
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/test2/test6.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="296">
+              <caret line="10" column="17" lean-forward="true" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
+>>>>>>> d91e38ab46ba4f0955ea07605df0fbcbc431d674
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+<<<<<<< HEAD
+=======
+        <entry file="file://$PROJECT_DIR$/lianxi/phonebook_oop_pickle.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="433">
+              <caret line="219" selection-start-line="219" selection-end-line="219" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+>>>>>>> d91e38ab46ba4f0955ea07605df0fbcbc431d674
         <entry file="file://$PROJECT_DIR$/test/test01.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
+            <state relative-caret-position="297">
               <caret line="9" column="28" selection-start-line="9" selection-start-column="28" selection-end-line="9" selection-end-column="28" />
             </state>
           </provider>
@@ -96,7 +155,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test/test02.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
+            <state relative-caret-position="330">
               <caret line="10" column="38" selection-start-line="10" selection-start-column="38" selection-end-line="10" selection-end-column="38" />
             </state>
           </provider>
@@ -135,6 +194,16 @@
         <option value="$PROJECT_DIR$/lianxi/phonebook_oop.py" />
         <option value="$PROJECT_DIR$/lianxi/phonebook_oop_pickle.py" />
         <option value="$PROJECT_DIR$/README.md" />
+<<<<<<< HEAD
+=======
+        <option value="$PROJECT_DIR$/pytest/test1.py" />
+        <option value="$PROJECT_DIR$/test2/test01.py" />
+        <option value="$PROJECT_DIR$/test2/test2.py" />
+        <option value="$PROJECT_DIR$/test2/test3.py" />
+        <option value="$PROJECT_DIR$/test2/test4.py" />
+        <option value="$PROJECT_DIR$/test2/test5.py" />
+        <option value="$PROJECT_DIR$/test2/test6.py" />
+>>>>>>> d91e38ab46ba4f0955ea07605df0fbcbc431d674
       </list>
     </option>
   </component>
@@ -144,12 +213,15 @@
     <option name="width" value="1920" />
     <option name="height" value="967" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="添加" />
+  </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -157,11 +229,28 @@
               <item name="pycharm" type="b2602c69:ProjectViewProjectNode" />
               <item name="pycharm" type="462c0819:PsiDirectoryNode" />
             </path>
+<<<<<<< HEAD
+=======
+            <path>
+              <item name="pycharm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pycharm" type="462c0819:PsiDirectoryNode" />
+              <item name="lianxi" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pycharm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pycharm" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pycharm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pycharm" type="462c0819:PsiDirectoryNode" />
+              <item name="test2" type="462c0819:PsiDirectoryNode" />
+            </path>
+>>>>>>> d91e38ab46ba4f0955ea07605df0fbcbc431d674
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -170,7 +259,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -184,8 +273,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.phonebook_oop_pickle">
-    <configuration name="phonebook_func" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.test6">
+    <configuration name="test2" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="pycharm" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -193,12 +282,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/lianxi" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test2" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/lianxi/phonebook_func.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test2/test2.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -207,7 +296,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="phonebook_func_json" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="test3" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="pycharm" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -215,12 +304,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/lianxi" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test2" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/lianxi/phonebook_func_json.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test2/test3.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -229,7 +318,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="phonebook_oop" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="test4" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="pycharm" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -237,12 +326,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/lianxi" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test2" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/lianxi/phonebook_oop.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test2/test4.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -251,7 +340,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="phonebook_oop_pickle" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="test5" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="pycharm" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -259,12 +348,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/lianxi" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test2" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/lianxi/phonebook_oop_pickle.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test2/test5.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -273,7 +362,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="test02" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="test6" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="pycharm" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -281,12 +370,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test2" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test/test02.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test2/test6.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -297,11 +386,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.phonebook_oop_pickle" />
-        <item itemvalue="Python.phonebook_oop" />
-        <item itemvalue="Python.phonebook_func_json" />
-        <item itemvalue="Python.phonebook_func" />
-        <item itemvalue="Python.test02" />
+        <item itemvalue="Python.test6" />
+        <item itemvalue="Python.test5" />
+        <item itemvalue="Python.test4" />
+        <item itemvalue="Python.test3" />
+        <item itemvalue="Python.test2" />
       </list>
     </recent_temporary>
   </component>
@@ -322,7 +411,12 @@
       <workItem from="1566142303199" duration="3341000" />
       <workItem from="1566222743652" duration="4879000" />
       <workItem from="1566304753877" duration="31000" />
+<<<<<<< HEAD
       <workItem from="1566304813842" duration="6579000" />
+=======
+      <workItem from="1566304813842" duration="5392000" />
+      <workItem from="1566367039349" duration="5261000" />
+>>>>>>> d91e38ab46ba4f0955ea07605df0fbcbc431d674
     </task>
     <task id="LOCAL-00001" summary="* test0818">
       <created>1566141280810</created>
@@ -405,27 +499,52 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
+<<<<<<< HEAD
     <option name="totallyTimeSpent" value="23782000" />
+=======
+    <option name="totallyTimeSpent" value="27856000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+>>>>>>> d91e38ab46ba4f0955ea07605df0fbcbc431d674
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
+<<<<<<< HEAD
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19296375" />
+=======
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19509594" />
+>>>>>>> d91e38ab46ba4f0955ea07605df0fbcbc431d674
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
+<<<<<<< HEAD
       <window_info anchor="bottom" id="Run" order="2" weight="0.46529284" />
+=======
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.4121475" />
+>>>>>>> d91e38ab46ba4f0955ea07605df0fbcbc431d674
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.329718" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.329718" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50053304" side_tool="true" weight="0.23644252" />
       <window_info anchor="bottom" id="调试" order="11" />
+<<<<<<< HEAD
       <window_info anchor="bottom" id="Terminal" order="12" sideWeight="0.49946696" visible="true" weight="0.26030368" />
+=======
+      <window_info anchor="bottom" id="Terminal" order="12" sideWeight="0.49946696" weight="0.26030368" />
+>>>>>>> d91e38ab46ba4f0955ea07605df0fbcbc431d674
       <window_info anchor="bottom" id="Python Console" order="13" weight="0.3286334" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -449,14 +568,23 @@
     <option name="LAST_COMMIT_MESSAGE" value="默认更改列表" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/pycharm$test02.coverage" NAME="test02 Coverage Results" MODIFIED="1566307046337" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
+    <SUITE FILE_PATH="coverage/pycharm$test5.coverage" NAME="test5 Coverage Results" MODIFIED="1566380259313" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test2" />
+    <SUITE FILE_PATH="coverage/pycharm$test2.coverage" NAME="test2 Coverage Results" MODIFIED="1566379217994" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test2" />
     <SUITE FILE_PATH="coverage/pycharm$phonebook_oop.coverage" NAME="phonebook_oop Coverage Results" MODIFIED="1566309857132" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lianxi" />
-    <SUITE FILE_PATH="coverage/pycharm$test01.coverage" NAME="test01 Coverage Results" MODIFIED="1566229067895" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
-    <SUITE FILE_PATH="coverage/pycharm$test2.coverage" NAME="test2 Coverage Results" MODIFIED="1566110823846" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/pycharm$test.coverage" NAME="test Coverage Results" MODIFIED="1566106931698" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/pycharm$phonebook_func.coverage" NAME="phonebook_func Coverage Results" MODIFIED="1566307403803" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lianxi" />
+    <SUITE FILE_PATH="coverage/pycharm$test4.coverage" NAME="test4 Coverage Results" MODIFIED="1566379654227" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test2" />
+    <SUITE FILE_PATH="coverage/pycharm$test02.coverage" NAME="test02 Coverage Results" MODIFIED="1566307046337" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/pycharm$phonebook_func_json.coverage" NAME="phonebook_func_json Coverage Results" MODIFIED="1566307893207" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lianxi" />
+<<<<<<< HEAD
     <SUITE FILE_PATH="coverage/pycharm$phonebook_oop_pickle.coverage" NAME="phonebook_oop_pickle Coverage Results" MODIFIED="1566310243987" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lianxi" />
+=======
+    <SUITE FILE_PATH="coverage/pycharm$phonebook_oop_pickle.coverage" NAME="phonebook_oop_pickle Coverage Results" MODIFIED="1566310167826" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lianxi" />
+    <SUITE FILE_PATH="coverage/pycharm$phonebook_func.coverage" NAME="phonebook_func Coverage Results" MODIFIED="1566307403803" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lianxi" />
+    <SUITE FILE_PATH="coverage/pycharm$test01.coverage" NAME="test01 Coverage Results" MODIFIED="1566378629847" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test2" />
+    <SUITE FILE_PATH="coverage/pycharm$test3.coverage" NAME="test3 Coverage Results" MODIFIED="1566379410934" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test2" />
+    <SUITE FILE_PATH="coverage/pycharm$test6.coverage" NAME="test6 Coverage Results" MODIFIED="1566380282834" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test2" />
+    <SUITE FILE_PATH="coverage/pycharm$test1.coverage" NAME="test1 Coverage Results" MODIFIED="1566368826832" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pytest" />
+>>>>>>> d91e38ab46ba4f0955ea07605df0fbcbc431d674
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/python-dev/.idea/misc.xml" />
@@ -472,26 +600,82 @@
     <entry file="file://$PROJECT_DIR$/python-dev/Chapter-01.md" />
     <entry file="file://$PROJECT_DIR$/python-dev/Chapter-02.md" />
     <entry file="file://$PROJECT_DIR$/d" />
+<<<<<<< HEAD
+=======
+    <entry file="file://$PROJECT_DIR$/lianxi/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lianxi/phonebook_func.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5808">
+          <caret line="176" column="35" selection-end-line="183" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lianxi/phonebook_func_json.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="6435">
+          <caret line="195" selection-start-line="195" selection-end-line="195" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lianxi/phonebook_oop.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="6171">
+          <caret line="187" column="32" selection-end-line="203" />
+        </state>
+      </provider>
+    </entry>
+>>>>>>> d91e38ab46ba4f0955ea07605df0fbcbc431d674
     <entry file="file://$PROJECT_DIR$/test/test04.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/test/test01.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
+        <state relative-caret-position="297">
           <caret line="9" column="28" selection-start-line="9" selection-start-column="28" selection-end-line="9" selection-end-column="28" />
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/lianxi/__init__.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lianxi/phonebook_func_json.py">
+=======
+    <entry file="file://$PROJECT_DIR$/test/test02.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="318">
-          <caret line="195" lean-forward="true" selection-start-line="195" selection-end-line="195" />
+        <state relative-caret-position="330">
+          <caret line="10" column="38" selection-start-line="10" selection-start-column="38" selection-end-line="10" selection-end-column="38" />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/lianxi/phonebook_oop_pickle.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="433">
+          <caret line="219" selection-start-line="219" selection-end-line="219" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pytest/test1.py">
+>>>>>>> d91e38ab46ba4f0955ea07605df0fbcbc431d674
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="66">
+            <caret line="2" column="18" lean-forward="true" selection-start-line="2" selection-start-column="18" selection-end-line="2" selection-end-column="18" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test2/test01.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="2" column="20" lean-forward="true" selection-start-line="2" selection-start-column="20" selection-end-line="2" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/lianxi/phonebook_oop.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="228">
@@ -541,6 +725,40 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="420">
           <caret line="14" column="22" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="22" />
+=======
+    <entry file="file://$PROJECT_DIR$/test2/test2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="5" column="22" lean-forward="true" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test2/test3.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="8" column="9" lean-forward="true" selection-start-line="8" selection-start-column="9" selection-end-line="8" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test2/test4.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="5" column="20" selection-start-line="5" selection-start-column="20" selection-end-line="5" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test2/test5.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="99">
+          <caret line="3" column="11" lean-forward="true" selection-start-line="3" selection-start-column="11" selection-end-line="3" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test2/test6.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="296">
+          <caret line="10" column="17" lean-forward="true" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
+>>>>>>> d91e38ab46ba4f0955ea07605df0fbcbc431d674
         </state>
       </provider>
     </entry>
