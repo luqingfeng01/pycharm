@@ -1,0 +1,4 @@
+2019-08-22 22:07:16,866 - logs.py[line:39] - INFO: this is a logger info message
+2019-08-22 22:07:16,866 - logs.py[line:40] - WARNING: this is a logger warning message
+2019-08-22 22:07:16,867 - logs.py[line:41] - ERROR: this is a logger error message
+2019-08-22 22:07:16,867 - logs.py[line:42] - CRITICAL: this is a logger critical message
