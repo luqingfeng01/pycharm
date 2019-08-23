@@ -1,4 +1,4 @@
-from pycharm.Apitest.Config.config import *
+from Apitest.Config.config import *
 import pymysql
 import sys
 sys.path.append('..') # 提升一级到项目更目录下
