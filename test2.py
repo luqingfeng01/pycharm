@@ -1,125 +1,30 @@
-"""
-龙腾测试dev课程，通讯录程序
-实现一个简单的通讯录，包含增删改查
-"""
-record_list = []
-record_id = 0
+'''题目: 给出一个字符串, 判断其是否是是合法的IP(IPv4)地址
+思路
+
+将字符串按"."分割成4段得到一个列表
+逐个判断列表中的字符串是否数字格式并且在0~255之间, 是在新列表对应位置保存True, 不是保存False
+判断新列表中是否有False'''
 
 
-def input_record():
-    name = input("请输入姓名:")
-    phone_number = input("请输入电话:")
-    record = {"name": name, "phone_number": phone_number}
-    return record
+
+def is_ip4(ip:str) ->bool:
+    """
+       检查ip是否合法
+       :param: ip ip地址
+       :return: True 合法 False 不合法
+       """
+    return True if [1] * 4 == [x.isdigit() and 0<= int(x) <=255 for x in  ip.split(".")] else False
+
+print(is_ip4("192.168.1.2"))
 
 
-def add_record():
-    record= input_record()
-    global record_id
-    record_id += 1
-    record["record_id"] = record_id
-    record_list.append(record)
-    return "添加成功"
 
-
-def query_record(name):
-    query_result = []
-    query_ids = []
-    for record in record_list:
-        if record["name"] == name or record["record_id"] == query_ids:
-            query_ids.append(record["record_id"])
-            query_result.append(record)
-
-    return query_ids, query_result
-
-def delete_record(name):
-    query_ids, query_result = query_record(name)
-    if len(query_ids) == 0:
-        print("不存在")
-    else:
-        if len(query_result) > 1:
-            for record in query_result:
-                print("{}\t{}\t{}".format(record["record_id"], record["name"], record["phone_number"]))
-            record_id = input("请选择要删除的id:")
-            if int(record_id) in query_ids:
-                for record in record_list:
-                    if int(record_id) == record["record_id"]:
-                        record_list.remove(record)
-            else:
-                print("输入错误!!!")
-        else:
-            print("{}\t{}\t{}".format(query_result[0]["record_id"], query_result[0]["name"], query_result[0]["phone_number"]))
-            while True:
-                s = input("是否确认删除(Y/N):")
-                if s in ["Y", "N"]:
-                    if s == "Y":
-                        record_list.remove(query_result[0])
-                    else:
-                        pass
-                    break
-                else:
-                    print("输入错误!!!")
-
-
-def change_record(name):
-    query_ids, query_result = query_record(name)
-    if len(query_ids) == 0:
-        print("不存在!!!")
-    else:
-        if len(query_result) > 1:
-            for record in query_result:
-                print("{}\t{}\t{}".format(record["record_id"], record["name"], record["phone_number"]))
-            record_id = input("请选择要修改的id:")
-            if int(record_id) in query_ids:
-                for record in record_list:
-                    if int(record_id) == record["record_id"]:
-                        phone_number =input("请输入修改后的电话号码:")
-                        record["phone_number"] = phone_number
-                        print("修改成功")
-                        break
-            else:
-                print("输入错误!!!")
-        else:
-            print("{}\t{}\t{}".format(query_result[0]["record_id"],
-                                      query_result[0]["name"], query_result[0]["phone_number"]))
-            phone_number = input("请输入修改后的电话号码:")
-            query_result[0]["phone_number"] = phone_number
-            print("修改成功")
-
-
-if __name__ == "__main__":
-    while True:
-        menu = """
-        通讯录
-        1. 添加
-        2. 查找
-        3. 删除
-        4. 修改
-        5. 退出
-        """
-        print(menu)
-        s = input("请选择操作:")
-        if s in ["1", "2", "3", "4", "5"]:
-
-            if s == "1":
-                msg = add_record()
-                print(msg)
-            if s == "2":
-                name = input("请输入姓名或者编号:")
-                query_ids, query_result = query_record(name)
-                if len(query_ids) == 0:
-                    print("不存在")
-                else:
-                    for record in query_result:
-                        print("{}\t{}\t{}".format(record["record_id"], record["name"], record["phone_number"]))
-            if s == "3":
-                name = input("请输入姓名:")
-                delete_record(name)
-            if s == "4":
-                name = input("请输入姓名:")
-                change_record(name)
-            if s == "5":
-                break
-        else:
-            print("输入错误")
-            continue
+# def  is_ipv4(ip: str) -> bool:
+#   '''
+#     检查ip是否合法
+#     :param: ip ip地址
+#     :return: True 合法 False 不合法
+#     '''
+#   return True  if [1] * 4 == [x.isdigit() and 0 <= int(x) <= 255 for x in ip.split(".")] else False
+#
+# print(is_ipv4("192.168.1.2a0"))
