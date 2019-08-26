@@ -16,7 +16,7 @@ def postJson(path, timeout=60):
         with open(path, encoding='utf-8') as f:
             apis = json.load(f)
 
-        if isingistance(apis, dict):
+        if isinstance(apis, dict):
             apis=[apis]
 
         session = requests.session()

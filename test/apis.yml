@@ -1,4 +1,4 @@
-- name: 获取百度token接口 # 接口名称
+- name1: 获取百度token接口 # 接口名称
   request:  # 请求报文
     url: https://aip.baidubce.com/oauth/2.0/token
     method: get
@@ -9,7 +9,7 @@
   extract:  # 提取变量, 字典格式
     token:  RESPONSE.json()['access_token']  # RESPONSE系统变量，代表响应对象
 
-- name: 百度ORC接口  # 第二个接口
+- name2: 百度ORC接口  # 第二个接口
   request:
     url: https://aip.baidubce.com/rest/2.0/ocr/v1/general_basic?access_token=${token}  # 使用变量
     method: post

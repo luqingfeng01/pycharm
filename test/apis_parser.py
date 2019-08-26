@@ -1,17 +1,31 @@
-'''上面我们定义了一套接口关联的描述及规则，下面我们要对我们的规则进行解析，并加载运行，主要分为以下几步：
+import yaml
+import requests
+from string import Template
 
-读取yaml文件并使用yaml.safe_load(f)转为列表/字典
-遍历列表，每个列表项是一个接口
-读取当前列表项（接口）的request段信息，处理${变量}
+with open('apis.yaml', encoding='utf-8') as f:
+    apis = yaml.safe_load(f)
 
-将request段（字典格式）重新转会yaml字符串
-如果包含$使用string.Template('字符串').safe_subtitute(locals())，从locals()当前所有局部变量中找到$表示的同名变量，
-如token，并替换。
-重新将替换后变量的字符串转化为字典
-
-
-字典拆包，发送request请求
-如果请求中有extract字段，使用eval()计算表达式的值并保存到局部变量locals()中。
-如果请求中有verify字段，使用eval()计算表达式的值，并判断真假。
-'''
-
+for api in apis:
+    print("处理请求:", api.get('name'))
+    request = api.get('request', {})  # 请求报文，默认值为{}
+    # 处理参数化请求中的${变量}
+    request_str = yaml.dump(request)  # 先转为字符串
+    if '$' in request_str:
+        request_str = Template(request_str).safe_substitute(locals())  # 替换${变量}为局部变量中的同名变量
+        request = yaml.safe_load(request_str)  # 重新转为字典
+    # 发送请求
+    res = requests.request(**request)  # 字典解包，发送接口
+    # 提取变量
+    extract = api.get('extract')
+    if extract is not None:  # 如果存在extract
+        for key, value in extract.items():
+            # 计算value表达式，可使用的全局变量为空，可使用的局部变量为RESPONSE(响应对象)
+            # 保存变量结果到局部变量中
+            print("提取变量:", key, value)
+            locals()[key] = eval(value, {}, {'RESPONSE': res})  
+    # 处理断言
+    verify = api.get('verify')
+    if verify is not None:
+        for line in verify:
+            result = eval(line, {}, {'RESPONSE': res}) # 计算断言表达式，True代表成功，False代表失败
+            print("断言:", line, "结果:", "PASS" if result else "FAIL") 

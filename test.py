@@ -24,3 +24,5 @@ def is_closed(test:str) ->bool:
     return True
 
 print(is_closed(test))
+
+
