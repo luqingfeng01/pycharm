@@ -1,10 +1,10 @@
 import requests
-import readConfig as readConfig
+import pycharm.interfaceTest.readConfig as readConfig
 import os
 from xlrd import open_workbook
 from xml.etree import ElementTree as ElementTree
-from common import configHttp as configHttp
-from common.Log import MyLog as Log
+from pycharm.interfaceTest.common import configHttp as configHttp
+from pycharm.interfaceTest.common.Log import MyLog as Log
 import json
 
 localReadConfig = readConfig.ReadConfig()

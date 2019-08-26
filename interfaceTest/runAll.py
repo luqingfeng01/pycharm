@@ -1,9 +1,9 @@
 import os
 import unittest
-from common.Log import MyLog as Log
-import readConfig as readConfig
-import HTMLTestRunner
-from common.configEmail import MyEmail
+from pycharm.interfaceTest.common.Log import MyLog as Log
+import pycharm.interfaceTest.readConfig as readConfig
+from  HTMLTestReportCN import HTMLTestRunner
+from pycharm.interfaceTest.common.configEmail import MyEmail
 
 localReadConfig = readConfig.ReadConfig()
 

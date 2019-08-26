@@ -1,9 +1,9 @@
 import unittest
 import paramunittest
-import readConfig as readConfig
-from common import Log as Log
-from common import common
-from common import configHttp as ConfigHttp
+import pycharm.interfaceTest.readConfig as readConfig
+from pycharm.interfaceTest.common import Log as Log
+from pycharm.interfaceTest.common import common
+from pycharm.interfaceTest.common import configHttp as ConfigHttp
 
 login_xls = common.get_xls("userCase.xlsx", "login")
 localReadConfig = readConfig.ReadConfig()

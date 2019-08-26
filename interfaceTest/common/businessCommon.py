@@ -1,6 +1,6 @@
-from common import common
-from common import configHttp
-import readConfig as readConfig
+from pycharm.interfaceTest.common import common
+from pycharm.interfaceTest.common import configHttp
+import pycharm.interfaceTest.readConfig as readConfig
 
 localReadConfig = readConfig.ReadConfig()
 localConfigHttp = configHttp.ConfigHttp()

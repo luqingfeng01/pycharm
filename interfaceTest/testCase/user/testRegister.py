@@ -1,10 +1,10 @@
-import readConfig as readConfig
-from common.Log import MyLog
-from common import configHttp
-from common import common
+import pycharm.interfaceTest.readConfig as readConfig
+from pycharm.interfaceTest.common.Log import MyLog
+from pycharm.interfaceTest.common import configHttp
+from pycharm.interfaceTest.common import common
 import unittest
 import paramunittest
-from common import configDB
+from pycharm.interfaceTest.common import configDB
 
 register_xls = common.get_xls("userCase.xlsx", "register")
 localConfigHttp = configHttp.ConfigHttp()

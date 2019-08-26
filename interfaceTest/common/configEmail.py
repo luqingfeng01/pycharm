@@ -7,8 +7,8 @@ from email.mime.text import MIMEText
 from email.mime.image import MIMEImage
 from datetime import datetime
 import threading
-import readConfig as readConfig
-from common.Log import MyLog
+import pycharm.interfaceTest.readConfig as readConfig
+from pycharm.interfaceTest.common.Log import MyLog
 import zipfile
 import glob
 

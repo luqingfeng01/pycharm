@@ -1,5 +1,5 @@
 import os
-import readConfig as readConfig
+import pycharm.interfaceTest.readConfig as readConfig
 import logging
 from datetime import datetime
 import threading

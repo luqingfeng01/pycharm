@@ -1,10 +1,10 @@
-import readConfig as readConfig
+import pycharm.interfaceTest.readConfig as readConfig
 import unittest
 import paramunittest
-from common.Log import MyLog
-from common import configHttp
-from common import common
-from common import configDB
+from pycharm.interfaceTest.common.Log import MyLog
+from pycharm.interfaceTest.common import configHttp
+from pycharm.interfaceTest.common import common
+from pycharm.interfaceTest.common import configDB
 
 localRegisterQuick_xls = common.get_xls("userCase.xlsx", "registerquick")
 localReadConfig = readConfig.ReadConfig()

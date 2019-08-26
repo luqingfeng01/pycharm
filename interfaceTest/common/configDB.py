@@ -1,6 +1,6 @@
 import pymysql
-import readConfig as readConfig
-from common.Log import MyLog as Log
+import pycharm.interfaceTest.readConfig as readConfig
+from pycharm.interfaceTest.common.Log import MyLog as Log
 
 localReadConfig = readConfig.ReadConfig()
 

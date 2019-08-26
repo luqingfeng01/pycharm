@@ -1,9 +1,9 @@
 import unittest
 import paramunittest
-from common import common
-from common.Log import MyLog
-import readConfig as readConfig
-from common import configHttp as configHttp
+from pycharm.interfaceTest.common import common
+from pycharm.interfaceTest.common.Log import MyLog
+import pycharm.interfaceTest.readConfig as readConfig
+from pycharm.interfaceTest.common import configHttp as configHttp
 
 productInfo_xls = common.get_xls("productCase.xlsx", "getProductInfo")
 localReadConfig = readConfig.ReadConfig()

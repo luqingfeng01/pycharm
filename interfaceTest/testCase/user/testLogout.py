@@ -1,10 +1,10 @@
 import unittest
 import paramunittest
-import readConfig as ReadConfig
-from common.Log import MyLog
-from common import common
-from common import configHttp
-from common import businessCommon
+import pycharm.interfaceTest.readConfig as ReadConfig
+from pycharm.interfaceTest.common.Log import MyLog
+from pycharm.interfaceTest.common import common
+from pycharm.interfaceTest.common import configHttp
+from pycharm.interfaceTest.common import businessCommon
 
 localReadConfig = ReadConfig.ReadConfig()
 localConfigHttp = configHttp.ConfigHttp()

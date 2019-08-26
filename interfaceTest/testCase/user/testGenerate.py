@@ -1,9 +1,9 @@
 import unittest
 import paramunittest
-import readConfig as readConfig
-from common.Log import MyLog
-from common import common
-from common import configHttp
+import pycharm.interfaceTest.readConfig as readConfig
+from pycharm.interfaceTest.common.Log import MyLog
+from pycharm.interfaceTest.common import common
+from pycharm.interfaceTest.common import configHttp
 
 localGenerate_xls = common.get_xls("userCase.xlsx", "generate")
 localConfigHttp = configHttp.ConfigHttp()
