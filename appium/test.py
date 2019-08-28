@@ -1,13 +1,21 @@
 from time import sleep
 from appium import webdriver
-import unittest
+import unittest,random
+from appiummaster.untils.AppiumServer import AppiumServer
+
+
+
+
 
 
 desired_caps = {'platformName':'Android',
                 'deviceName':'127.0.0.1:62001',
                 'platformVersion':'3.8.3.1',
                 'appPackage':'com.kredito.fintek',
-                'appActivity':'com.lepin.danabersama.ui.activity.MainActivity'
+                'appActivity':'com.lepin.danabersama.ui.activity.MainActivity',
+                'automationName':'Appium',
+                'noReset': True,
+                'chromeOptions': {'androidProcess': 'com.tencent.mm:appbrand0'}
                 }
 driver=webdriver.Remote('http://127.0.0.1:4723/wd/hub',desired_caps)
 sleep(4)

@@ -1,0 +1,7 @@
+[2019-08-27 15:53:18.804390] INFO: jiekou: 当前模块 requests封装
+[2019-08-27 15:53:18.804390] INFO: jiekou: 全部args参数参数信息 , ()
+[2019-08-27 15:53:18.804390] INFO: jiekou: 全部kwargs参数信息 , {}
+[2019-08-27 15:53:18.813916] INFO: jiekou: 当前模块 解析测试用例文件
+[2019-08-27 15:53:18.813916] INFO: jiekou: 全部args参数参数信息 , ('E:\\pycharm\\jiekou\test_case_data\\case.xlsx',)
+[2019-08-27 15:53:18.814417] INFO: jiekou: 全部kwargs参数信息 , {}
+[2019-08-27 15:53:18.814417] INFO: jiekou: 打开测试用例失败，原因是:[Errno 22] Invalid argument: 'E:\\pycharm\\jiekou\test_case_data\\case.xlsx'
