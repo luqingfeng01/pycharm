@@ -63,7 +63,7 @@ class PySele():
 			WebDriverWait(self.driver,wati,1).until(EC.presence_of_element_located((By.ID, dingwei)))
 		elif fangfa == "name":
 			WebDriverWait(self.driver,wati,1).until(EC.presence_of_element_located((By.NAME, dingwei)))
-		elif fangfa == "class":
+		elif fangfa == "cla	ss":
 			WebDriverWait(self.driver,wati,1).until(EC.presence_of_element_located((By.CLASS_NAME, dingwei)))
 		elif fangfa == "link_text":
 			WebDriverWait(self.driver,wati,1).until(EC.presence_of_element_located((By.LINK_TEXT, dingwei)))

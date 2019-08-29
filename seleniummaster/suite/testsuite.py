@@ -1,5 +1,6 @@
 import  unittest,time,os
 from seleniummaster.util import BSTestRunner
+from seleniummaster.util import HTMLTestRunner
 from seleniummaster.config import description,reporttitle
 path=os.getcwd()
 case_path=path+'\\case'
@@ -12,5 +13,5 @@ def create_report():
     now=time.strftime('%Y-%m-%d_%H_%M',time.localtime(time.time()))
     report_dir=path+'\\report\\%s.html'%now
     re_open= open(report_dir,'wb')
-    runner=BSTestRunner.BSTestRunner(stream=re_open,title=reporttitle,description=description)
+    runner=HTMLTestRunner.HTMLTestRunner(stream=re_open,title=reporttitle,description=description)
     runner.run(test_suit)

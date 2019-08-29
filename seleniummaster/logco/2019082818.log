@@ -1,0 +1,21 @@
+2019-08-28 18:20:10,007 - ×¢²á²âÊÔ - ERROR - ÓÃÀıÖ´ĞĞÊ§°Ü£¬Ô­Òò£ºMessage: no such element: Unable to locate element: {"method":"css selector","selector":"input[type=\"pass_yuan\"]"}
+  (Session info: chrome=76.0.3809.100)
+
+2019-08-28 18:20:12,092 - ×¢²á²âÊÔ - INFO - input: password:liwa,xiugaimima:liwanlei,xiugaimima1:liwanlei,assert:Ô­ÃÜÂëÊäÈëÓĞÎó
+2019-08-28 18:20:20,398 - ×¢²á²âÊÔ - ERROR - ÓÃÀıÖ´ĞĞÊ§°Ü£¬Ô­Òò£ºMessage: no such element: Unable to locate element: {"method":"css selector","selector":"input[type=\"pass_yuan\"]"}
+  (Session info: chrome=76.0.3809.100)
+
+2019-08-28 18:20:22,472 - ×¢²á²âÊÔ - INFO - input: password:liwanlei,xiugaimima:liwanlei,xiugaimima1:liwanlei1,assert:ÇëÈ·ÈÏĞŞ¸ÄÃÜÂë
+2019-08-28 18:20:31,020 - ×¢²á²âÊÔ - ERROR - ÓÃÀıÖ´ĞĞÊ§°Ü£¬Ô­Òò£ºMessage: no such element: Unable to locate element: {"method":"css selector","selector":"input[type=\"pass_yuan\"]"}
+  (Session info: chrome=76.0.3809.100)
+
+2019-08-28 18:20:33,093 - ×¢²á²âÊÔ - INFO - input: password:liwanlei,xiugaimima:liwanlei,xiugaimima1:liwanlei,assert:µÇÂ¼
+2019-08-28 18:20:41,591 - ×¢²á²âÊÔ - ERROR - ÓÃÀıÖ´ĞĞÊ§°Ü£¬Ô­Òò£ºMessage: no such element: Unable to locate element: {"method":"link text","selector":"×¢²á"}
+  (Session info: chrome=76.0.3809.100)
+
+2019-08-28 18:20:51,021 - ×¢²á²âÊÔ - ERROR - ÓÃÀıÖ´ĞĞÊ§°Ü£¬Ô­Òò£ºMessage: no such element: Unable to locate element: {"method":"link text","selector":"×¢²á"}
+  (Session info: chrome=76.0.3809.100)
+
+2019-08-28 18:21:00,642 - ×¢²á²âÊÔ - ERROR - ÓÃÀıÖ´ĞĞÊ§°Ü£¬Ô­Òò£ºMessage: no such element: Unable to locate element: {"method":"link text","selector":"×¢²á"}
+  (Session info: chrome=76.0.3809.100)
+

@@ -20,4 +20,9 @@ def huoqu_test(filepath,index):
             listdata.append(dict_canshu)
         return listdata
     except Exception as e:
+        # print(e)
         logs.error_log('获取测试用例数据失败，原因：%s'%e)
+
+if __name__ == '__main__':
+    test =huoqu_test("E:\pycharm\seleniummaster\data\case.xlsx",0)
+    print(test)
