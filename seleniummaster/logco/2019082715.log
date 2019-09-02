@@ -1,0 +1,24 @@
+2019-08-27 15:48:25,442 - 注册测试 - ERROR - 用例执行失败，原因：Message: no such element: Unable to locate element: {"method":"css selector","selector":"input[type=\"pass_yuan\"]"}
+  (Session info: chrome=76.0.3809.100)
+
+2019-08-27 15:48:27,541 - 注册测试 - INFO - input: password:liwa,xiugaimima:liwanlei,xiugaimima1:liwanlei,assert:原密码输入有误
+2019-08-27 15:48:35,862 - 注册测试 - ERROR - 用例执行失败，原因：Message: no such element: Unable to locate element: {"method":"css selector","selector":"input[type=\"pass_yuan\"]"}
+  (Session info: chrome=76.0.3809.100)
+
+2019-08-27 15:48:37,959 - 注册测试 - INFO - input: password:liwanlei,xiugaimima:liwanlei,xiugaimima1:liwanlei1,assert:请确认修改密码
+2019-08-27 15:48:46,333 - 注册测试 - ERROR - 用例执行失败，原因：Message: no such element: Unable to locate element: {"method":"css selector","selector":"input[type=\"pass_yuan\"]"}
+  (Session info: chrome=76.0.3809.100)
+
+2019-08-27 15:48:48,466 - 注册测试 - INFO - input: password:liwanlei,xiugaimima:liwanlei,xiugaimima1:liwanlei,assert:登录
+2019-08-27 15:48:56,915 - 注册测试 - ERROR - 用例执行失败，原因：Message: no such element: Unable to locate element: {"method":"link text","selector":"注册"}
+  (Session info: chrome=76.0.3809.100)
+
+2019-08-27 15:49:06,466 - 注册测试 - ERROR - 用例执行失败，原因：Message: no such element: Unable to locate element: {"method":"link text","selector":"注册"}
+  (Session info: chrome=76.0.3809.100)
+
+2019-08-27 15:49:16,010 - 注册测试 - ERROR - 用例执行失败，原因：Message: no such element: Unable to locate element: {"method":"link text","selector":"注册"}
+  (Session info: chrome=76.0.3809.100)
+
+2019-08-27 15:49:25,685 - 注册测试 - ERROR - 用例执行失败，原因：Message: no such element: Unable to locate element: {"method":"link text","selector":"注册"}
+  (Session info: chrome=76.0.3809.100)
+
