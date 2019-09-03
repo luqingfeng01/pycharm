@@ -7,29 +7,21 @@ from appiummaster.untils.AppiumServer import AppiumServer
 
 
 
-
+from time import sleep
+from appium import webdriver
 desired_caps = {'platformName':'Android',
                 'deviceName':'127.0.0.1:62001',
                 'platformVersion':'3.8.3.1',
+<<<<<<< HEAD
+                'appPackage':'com.juyang.mall',
+                'appActivity':'com.shanjian.juyang.activity.home.Activity_Home'
+=======
                 'appPackage':'com.kredito.fintek',
                 'appActivity':'com.lepin.danabersama.ui.activity.MainActivity',
                 'automationName':'Appium',
                 'noReset': True,
                 'chromeOptions': {'androidProcess': 'com.tencent.mm:appbrand0'}
+>>>>>>> 910a05506b440b75c247450209fbb500c24776f3
                 }
 driver=webdriver.Remote('http://127.0.0.1:4723/wd/hub',desired_caps)
 sleep(4)
-
-driver.find_element_by_id("com.kredito.fintek:id/versionchecklib_version_dialog_cancel").click()
-sleep(3)
-driver.find_element_by_id("com.kredito.fintek:id/messages").click()
-sleep(3)
-driver.find_element_by_id("com.kredito.fintek:id/userNameTv").click()
-sleep(2)
-driver.find_element_by_id("com.kredito.fintek:id/phoneEdit").send_keys("15820797938")
-driver.find_element_by_id("com.kredito.fintek:id/pwdEdit").send_keys("qwer1234")
-sleep(2)
-driver.find_element_by_id("com.kredito.fintek:id/loginBtn")
-
-sleep(5)
-driver.quit()
