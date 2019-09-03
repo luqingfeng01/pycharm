@@ -24,5 +24,18 @@ data2={
  "remark":"test",
  "operator":"kredito"
 }
-r = requests.post(url=url,headers= header,data=json.dumps(data1))
+# r = requests.post(url=url,headers= header,data=json.dumps(data1))
+# print(r.json())
+
+
+
+data3 = {
+ "userId" : 12776,
+ "billType": 2,
+ "repaymentDate": "2019-08-31"
+}
+
+
+r = requests.post(url="https://mgt-api-test.seanla.top/ext/api/collection/spreadsheet",
+                  headers={"Content-Type":"application/json; charset=UTF-8"},data=json.dumps(data3))
 print(r.json())
