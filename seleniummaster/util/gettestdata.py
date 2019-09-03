@@ -5,11 +5,12 @@
 """
 import xlrd
 from seleniummaster.util import  log
-logs=log.log_message()
+# logs=log.log_message()
 def huoqu_test(filepath,index):
     try:
         file = xlrd.open_workbook(filepath)
         me = file.sheets()[index]
+        print(me)
         nrows = me.nrows
         listdata = []
         for i in range(1, nrows):
@@ -20,9 +21,10 @@ def huoqu_test(filepath,index):
             listdata.append(dict_canshu)
         return listdata
     except Exception as e:
-        # print(e)
-        logs.error_log('获取测试用例数据失败，原因：%s'%e)
+        print(e)
+        # logs.error_log('获取测试用例数据失败，原因：%s'%e)
 
 if __name__ == '__main__':
     test =huoqu_test("E:\pycharm\seleniummaster\data\case.xlsx",0)
+
     print(test)

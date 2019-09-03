@@ -1,0 +1,37 @@
+# 控制 monkey 发送消息的 Monkey 头
+type=user
+count=10
+speed=1.0
+start data >>
+#固定头部，参数和值均不影响脚本
+# 在此之下，编写 monkey 脚本命令
+LaunchActivity(com.kredito.fintek,com.lepin.danabersama.ui.activity.MainActivity)
+#启动app，参数1：包名，参数2：主activity名
+UserWait(500)
+#等待时间
+captureDispatchPointer(10,10,0,615,1194,1,1,-1,1,1,0,0)   #第4个为X轴 第五个为Y轴
+#按下坐标500,500
+captureDispatchPointer(10,10,1,615,1194,1,1,-1,1,1,0,0)
+
+captureDispatchPointer(10,10,0,160,131,1,1,-1,1,1,0,0)   #第4个为X轴 第五个为Y轴
+#按下坐标500,500
+captureDispatchPointer(10,10,1,160,131,1,1,-1,1,1,0,0)
+
+
+captureDispatchPointer(10,10,0,26,251,1,1,-1,1,1,0,0)
+captureDispatchPointer(10,10,1,26,251,1,1,-1,1,1,0,0)
+DispatchString(15820797938)
+#输入账号
+
+captureDispatchPointer(10,10,0,26,339,1,1,-1,1,1,0,0)
+captureDispatchPointer(10,10,1,26,339,1,1,-1,1,1,0,0)
+
+#输入密码
+captureDispatchPointer(10,10,0,26,440,1,1,-1,1,1,0,0)
+captureDispatchPointer(10,10,1,26,440,1,1,-1,1,1,0,0)
+DispatchString(qwer1234)
+
+
+captureDispatchPress(4)
+captureDispatchPress(4)
+#双back退出app
