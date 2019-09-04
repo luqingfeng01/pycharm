@@ -1,5 +1,5 @@
 #1.导入Flask request
-from flask import Flask,request
+from flask import Flask,request,jsonify
 
 #2从当前模块实例化一个Flask对象
 app = Flask(__name__)
@@ -9,19 +9,26 @@ app = Flask(__name__)
 #4.挂载接口地址
 @app.route("/add")
 def add():
-    a = request.args["a"]   #是请求url参数组成的字典
-    b = request.args["b"]   #从请求中提取a,b两个参数的值
+    a = request.json.get("a")   #是请求url参数组成的字典
+    b = request.json.get("b")   #从请求中提取a,b两个参数的值
     print(a,type(a),type(b))
 
     sum = int(a) +int(b)  #转换为整形进行相加
     print(sum,type(sum))
-    return str(sum)   #将结果转为字符串返回
+    return '{"code":1,"msg":"成功","result":%s}'%sum  #将结果转为字符串返回
 #减法函数
-@app.route("/sub")
-def minus():
-    a = request.args["a"]
-    b = request.args["b"]
-    return str(float(a)-float(b))
+@app.route("/sub",methods=["post"])
+def sub():
+    a = request.json.get("a")
+    b = request.json.get("b")
+    c = float(a)-float(b)
+    print(c)
+    if a is None or b  is None:
+        return jsonify({"code":0,"msg":"参数缺失","result":None})
+    elif not isinstance(a,int) or not isinstance(b,int):
+        return jsonify({"code":0,"msg":"参数必须为int型","result":None})
+    else:
+        return  jsonify({"code":1,"msg":"成功","result":a-b })
 
 
 

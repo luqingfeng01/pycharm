@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://cdn.staticfile.org/twitter-bootstrap/4.3.1/css/bootstrap.min.css">
+    <title>Title</title>
+</head>
+<body>
+    <div class="container">
+        <h1>接口测试报告</h1>
+        <h2>执行人：{{tester}}</h2>
+        <p>成功：{{pass_num}}</p>
+        <p>失败：{{fail_num}}</p>
+        <table class="table table-bordered">
+            <tr><td>用例名称</td><td>执行结果</td></tr>
+            {% for item in data %}
+                <tr><td>{{item['case']}}</td><td>{{item.result}}</td></tr>
+            {% endfor %}
+    </table>
+    </div>
+</body>
+</html>

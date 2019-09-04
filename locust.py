@@ -1,5 +1,5 @@
 
-from locust import HttpLocust, TaskSet, task
+from locust import HttpLocust,TaskSet,task
 import re
 
 
@@ -27,7 +27,7 @@ def login(l):
         # print type(page_content)
         # print page_content
         reval = pattern.search(page_content)
-        print
+
         reval.group()
         if reval.group() != "('messageleft').innerHTML = '<p>欢迎您回来 新手上路 A12345</p>":
             response.failure(u"登录失败！")

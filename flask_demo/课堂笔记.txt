@@ -1,0 +1,35 @@
+1. 导入Flask    from flask import Flask, request
+2. 从当前模块实例化一个应用对象    app = Flask(__name__)
+3. 写个函数  def add(): ....
+    1. 提取参数  a = request.args.get('a')   b = requests.args.get('b')
+    2. 业务处理  sum = int(a) + int(b)
+    3. 返回响应  return str(sum)
+
+4. 挂载一个接口地址  @app.route('/add')
+5. 运行
+if __name__ == '__main__':
+    app.run(port=5001)
+
+
+ POST请求
+
+ request 请求对象
+ request.args: 保存请求的url参数，字典格式
+ request.form: 保存表单格式的Post数据，字典格式
+ request.json: 保存JSON的的Post数据，字典格式
+ request.value: request.args + request.form里的参数，字典格式
+
+
+ JSON  和 Python字典
+
+ 在Python中JSON实际指 符合JSON语法格式的字符串 '{"a": 1, "b": 2, "c": true}'
+ 字典是一种数据结构  {"a": 1, "b": 2}
+
+1. 字典可以用单引号，JSON只能双引号
+2. True/False/None -> true,false,null
+
+
+接口的两种类型：
+
+1. 数据型接口  返回json/xml...
+2. 返回html页面
