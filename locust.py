@@ -1,5 +1,6 @@
 
-from locust import HttpLocust,TaskSet,task
+import os
+from locust import HttpLocust, TaskSet, task
 import re
 
 
@@ -22,7 +23,8 @@ def login(l):
     with l.client.post("/logging.php?action=login&loginsubmit=yes&floatlogin=yes&inajax=1",
                        headers=l.head, data=l.loginparameter, catch_response=True) as response:
         # 使用正则表达式获取返回的数据，进行检查点判断
-        pattern = re.compile(r"\(\'messageleft\'\)\.innerHTML = \'<p>(.+)?</p>")
+        pattern = re.compile(
+            r"\(\'messageleft\'\)\.innerHTML = \'<p>(.+)?</p>")
         page_content = response.content
         # print type(page_content)
         # print page_content
@@ -56,6 +58,5 @@ class WebsiteUser(HttpLocust):
 
 # 执行脚本：run_test.py
 # # -*-encoding:utf-8-*-
-import os
 
 os.system("locust-script.py -f e:/py/login.py --host=http://localhost:8090/test ")
